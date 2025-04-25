@@ -1,11 +1,11 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+"use client";
+
+import Search from "./search";
 
 export default function Home() {
   return (
     <div>
-      <h1>AAA Assignment</h1>
-      <hr/>
+      <Search />
     </div>
   );
 }
